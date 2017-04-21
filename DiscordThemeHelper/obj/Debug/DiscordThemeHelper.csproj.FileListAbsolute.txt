@@ -1,0 +1,9 @@
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\bin\Debug\DiscordThemeHelper.exe.config
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\bin\Debug\DiscordThemeHelper.exe
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\bin\Debug\DiscordThemeHelper.pdb
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\obj\Debug\DiscordThemeHelper.csprojResolveAssemblyReference.cache
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\obj\Debug\DiscordThemeHelper.Form1.resources
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\obj\Debug\DiscordThemeHelper.Properties.Resources.resources
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\obj\Debug\DiscordThemeHelper.csproj.GenerateResource.Cache
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\obj\Debug\DiscordThemeHelper.exe
+c:\users\_steve\documents\visual studio 2017\Projects\DiscordThemeHelper\DiscordThemeHelper\obj\Debug\DiscordThemeHelper.pdb
