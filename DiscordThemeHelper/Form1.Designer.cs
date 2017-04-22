@@ -41,6 +41,8 @@
             this.clrCodeBox = new System.Windows.Forms.TextBox();
             this.helperButton3 = new System.Windows.Forms.Button();
             this.helperLink = new System.Windows.Forms.LinkLabel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.nameBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -56,7 +58,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(38, 64);
+            this.label2.Location = new System.Drawing.Point(40, 89);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 13);
             this.label2.TabIndex = 1;
@@ -64,7 +66,7 @@
             // 
             // linkBox
             // 
-            this.linkBox.Location = new System.Drawing.Point(124, 61);
+            this.linkBox.Location = new System.Drawing.Point(126, 86);
             this.linkBox.Name = "linkBox";
             this.linkBox.Size = new System.Drawing.Size(147, 20);
             this.linkBox.TabIndex = 2;
@@ -72,7 +74,7 @@
             // helperButton
             // 
             this.helperButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helperButton.Location = new System.Drawing.Point(278, 59);
+            this.helperButton.Location = new System.Drawing.Point(280, 84);
             this.helperButton.Name = "helperButton";
             this.helperButton.Size = new System.Drawing.Size(28, 23);
             this.helperButton.TabIndex = 3;
@@ -83,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(38, 90);
+            this.label3.Location = new System.Drawing.Point(40, 115);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 13);
             this.label3.TabIndex = 4;
@@ -91,7 +93,7 @@
             // 
             // pathBox
             // 
-            this.pathBox.Location = new System.Drawing.Point(141, 87);
+            this.pathBox.Location = new System.Drawing.Point(143, 112);
             this.pathBox.Name = "pathBox";
             this.pathBox.Size = new System.Drawing.Size(130, 20);
             this.pathBox.TabIndex = 5;
@@ -99,7 +101,7 @@
             // helperButton2
             // 
             this.helperButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helperButton2.Location = new System.Drawing.Point(278, 85);
+            this.helperButton2.Location = new System.Drawing.Point(280, 110);
             this.helperButton2.Name = "helperButton2";
             this.helperButton2.Size = new System.Drawing.Size(28, 23);
             this.helperButton2.TabIndex = 6;
@@ -109,7 +111,7 @@
             // 
             // mainButton
             // 
-            this.mainButton.Location = new System.Drawing.Point(66, 149);
+            this.mainButton.Location = new System.Drawing.Point(68, 174);
             this.mainButton.Name = "mainButton";
             this.mainButton.Size = new System.Drawing.Size(219, 23);
             this.mainButton.TabIndex = 7;
@@ -119,7 +121,7 @@
             // 
             // cleanButton
             // 
-            this.cleanButton.Location = new System.Drawing.Point(85, 178);
+            this.cleanButton.Location = new System.Drawing.Point(87, 203);
             this.cleanButton.Name = "cleanButton";
             this.cleanButton.Size = new System.Drawing.Size(182, 23);
             this.cleanButton.TabIndex = 8;
@@ -130,7 +132,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 116);
+            this.label4.Location = new System.Drawing.Point(40, 141);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 13);
             this.label4.TabIndex = 9;
@@ -138,7 +140,7 @@
             // 
             // clrCodeBox
             // 
-            this.clrCodeBox.Location = new System.Drawing.Point(128, 113);
+            this.clrCodeBox.Location = new System.Drawing.Point(130, 138);
             this.clrCodeBox.Name = "clrCodeBox";
             this.clrCodeBox.Size = new System.Drawing.Size(143, 20);
             this.clrCodeBox.TabIndex = 10;
@@ -146,7 +148,7 @@
             // helperButton3
             // 
             this.helperButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helperButton3.Location = new System.Drawing.Point(277, 111);
+            this.helperButton3.Location = new System.Drawing.Point(279, 136);
             this.helperButton3.Name = "helperButton3";
             this.helperButton3.Size = new System.Drawing.Size(29, 23);
             this.helperButton3.TabIndex = 11;
@@ -157,7 +159,7 @@
             // helperLink
             // 
             this.helperLink.AutoSize = true;
-            this.helperLink.Location = new System.Drawing.Point(121, 207);
+            this.helperLink.Location = new System.Drawing.Point(123, 232);
             this.helperLink.Name = "helperLink";
             this.helperLink.Size = new System.Drawing.Size(113, 13);
             this.helperLink.TabIndex = 12;
@@ -165,11 +167,30 @@
             this.helperLink.Text = "How to install themes?";
             this.helperLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.helperLink_LinkClicked);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(41, 63);
+            this.label5.Name = "label5";
+            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label5.Size = new System.Drawing.Size(96, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Enter theme name:";
+            // 
+            // nameBox
+            // 
+            this.nameBox.Location = new System.Drawing.Point(143, 60);
+            this.nameBox.Name = "nameBox";
+            this.nameBox.Size = new System.Drawing.Size(130, 20);
+            this.nameBox.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 228);
+            this.ClientSize = new System.Drawing.Size(346, 257);
+            this.Controls.Add(this.nameBox);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.helperLink);
             this.Controls.Add(this.helperButton3);
             this.Controls.Add(this.clrCodeBox);
@@ -206,6 +227,8 @@
         private System.Windows.Forms.TextBox clrCodeBox;
         private System.Windows.Forms.Button helperButton3;
         private System.Windows.Forms.LinkLabel helperLink;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox nameBox;
     }
 }
 

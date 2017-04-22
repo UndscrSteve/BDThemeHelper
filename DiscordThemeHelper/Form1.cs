@@ -30,6 +30,7 @@ namespace DiscordThemeHelper
             string pathUsrName = pathBox.Text;
             string imageUrl = linkBox.Text;
             string colorCode = clrCodeBox.Text;
+            string themeName = nameBox.Text;
             string path = "C:/Users/" + pathUsrName + "/Documents/BDThemeHelper/";
             string filePath = "C:/Users/" + pathUsrName + "/Documents/BDThemeHelper/my_theme.theme.css";
 
@@ -61,6 +62,16 @@ namespace DiscordThemeHelper
                         string clrReplacer = File.ReadAllText(filePath);
                         clrReplacer = clrReplacer.Replace("#EB5A00", colorCode);
                         File.WriteAllText(filePath, clrReplacer);
+                    }
+                    else
+                    {
+                    }
+
+                    if(nameBox.Text != "")
+                    {
+                        string nameReplacer = File.ReadAllText(filePath);
+                        nameReplacer = nameReplacer.Replace("Sample_Theme", themeName);
+                        File.WriteAllText(filePath, nameReplacer);
                     }
                     else
                     {

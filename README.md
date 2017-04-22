@@ -1,7 +1,7 @@
 ## Better Discord Theme Helper ##
 This program helps you create Better Discord themes from scratch. You only need to enter the URL of your desired image, and your Windows username. The tool will automaticly create a theme file for you, that you only need to install.
 
-![alt text](https://puu.sh/vso0L/db23ece215.png "")
+![alt text](https://puu.sh/vsoTP/4fef1c9b9a.png "")
 
 
 **Intalling themes**
