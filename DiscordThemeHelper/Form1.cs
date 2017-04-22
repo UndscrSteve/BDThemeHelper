@@ -12,6 +12,7 @@ namespace DiscordThemeHelper
         public Form1()
         {
             InitializeComponent();
+            helperLink.Links.Add(0, 23, "https://github.com/UndscrSteve/BDThemeHelper");
         }
 
         private void helperButton_Click(object sender, EventArgs e)
@@ -32,10 +33,8 @@ namespace DiscordThemeHelper
             string path = "C:/Users/" + pathUsrName + "/Documents/BDThemeHelper/";
             string filePath = "C:/Users/" + pathUsrName + "/Documents/BDThemeHelper/my_theme.theme.css";
 
-            if (linkBox.Text != "")
-            {
-                if (pathBox.Text != "")
-                {
+            if (linkBox.Text != "" && pathBox.Text != "")
+            {              
                     try
                     {
                         if (Directory.Exists(path))
@@ -71,14 +70,7 @@ namespace DiscordThemeHelper
                     replacer = replacer.Replace("LINKHERE", imageUrl);
                     File.WriteAllText(filePath, replacer);
                     
-
-                    MessageBox.Show("Done! You can find your theme in C:/YOURNAME/Documents/BDThemeHelper. Thanks for using this tool!");
-
-                }
-                else
-                {
-                    MessageBox.Show("Please enter something into the fields!");
-                }
+                    MessageBox.Show("Done! You can find your theme in C:/Users/YOURNAME/Documents/BDThemeHelper. Thanks for using this tool!");
             }
             else
             {
@@ -108,6 +100,12 @@ namespace DiscordThemeHelper
         private void helperButton3_Click(object sender, EventArgs e)
         {
             MessageBox.Show("If you want your theme to fit color-wise with the background, use a Hexadecimal color code. You can find those on sites like colorpicker.com . Please enter them WITH the #, else it won't work! If you dont need a special color, leave this field empty!");
+        }
+
+        private void helperLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            helperLink.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://github.com/UndscrSteve/BDThemeHelper");
         }
     }
 }

@@ -40,6 +40,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.clrCodeBox = new System.Windows.Forms.TextBox();
             this.helperButton3 = new System.Windows.Forms.Button();
+            this.helperLink = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -153,11 +154,23 @@
             this.helperButton3.UseVisualStyleBackColor = true;
             this.helperButton3.Click += new System.EventHandler(this.helperButton3_Click);
             // 
+            // helperLink
+            // 
+            this.helperLink.AutoSize = true;
+            this.helperLink.Location = new System.Drawing.Point(121, 207);
+            this.helperLink.Name = "helperLink";
+            this.helperLink.Size = new System.Drawing.Size(113, 13);
+            this.helperLink.TabIndex = 12;
+            this.helperLink.TabStop = true;
+            this.helperLink.Text = "How to install themes?";
+            this.helperLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.helperLink_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 215);
+            this.ClientSize = new System.Drawing.Size(346, 228);
+            this.Controls.Add(this.helperLink);
             this.Controls.Add(this.helperButton3);
             this.Controls.Add(this.clrCodeBox);
             this.Controls.Add(this.label4);
@@ -192,6 +205,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox clrCodeBox;
         private System.Windows.Forms.Button helperButton3;
+        private System.Windows.Forms.LinkLabel helperLink;
     }
 }
 
