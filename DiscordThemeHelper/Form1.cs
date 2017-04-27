@@ -49,7 +49,7 @@ namespace DiscordThemeHelper
 
                         using (WebClient webClient = new WebClient())
                         {
-                            webClient.DownloadFile("https://puu.sh/vsyZf/b3407d8005.css", @"C:/Users/" + pathUsrName + "/Documents/BDThemeHelper/my_theme.theme.css");
+                            webClient.DownloadFile("https://puu.sh/vxMnj/72d9e495a8.css", @"C:/Users/" + pathUsrName + "/Documents/BDThemeHelper/my_theme.theme.css");
                         }
                     }
                     catch (Exception)
